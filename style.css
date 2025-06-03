@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.heading{
+    background-color: black;
+    margin:0;
+    padding:5px 3px;
+}
+.lead{
+    color: white;
+    letter-spacing: 2px;
+    font-family: lato;
+    margin-left: 7px;
+}
+
+block-1{
+    height:90vh;
+    background-image: url('./eggs1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s all;.
+
+
+}
+
+.block-1:hover > .welcome{
+    letter-spacing: 4px;
+}
+.welcome{
+    font-size: 4rem;
+   color: rgba(233, 161, 19, 0.96);
+    transition: 1s all;
+
+}
+
+.welcome-btn{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    background-color: black;
+    padding:9px 15px;
+    border-radius: 29px;
+    transition: cubic-bezier(3,2, 0, 3);
+    
+
+}
+
+.welcome-btn:hover{
+    background-color: white;
+    color: black;
+    
+}
+  /*style for block-2*/
+  .block-2{
+      background-color: rgba(204, 204, 147, 0.711);
+      padding: 5px 15px;
+    }
+    
+    .title-2{
+            text-align: center;
+            color: chocolate;
+            padding: auto;
+            margin:auto;
+    
+    }
+    
+
+    .p-2::first-letter {
+       font-size:3rem;
+       font-weight: bolder;
+       color: brown;
+       font-style: inherit;
+        }
+    .p-2{
+        font-size: 2rem;
+        letter-spacing: 2px;
+        color: white;
+        
+    }
+
+    /*BLOCK-3 */
+    .block-3 {
+        padding: 2px;
+   display: grid;
+   grid-gap: 2px;
+   grid-template-columns: 1fr 1fr 1fr;
+}  
+    .card-0,
+    .card-1,
+    .card-2 {
+       
+        border: 1px black solid;
+        padding: 4px 9px;
+        border-radius: 7px;
+    
+    }
+    .card-1, .card-2 {
+        margin-left: 6px;
+
+    }
+    .card-0_title,
+    .card-1_title,
+    .card-2_title {
+        text-align: center;
+    }
+    
+
+
+
